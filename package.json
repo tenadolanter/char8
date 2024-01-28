@@ -1,0 +1,39 @@
+{
+  "name": "char8",
+  "version": "1.0.0",
+  "description": "根据阳历日期获取八字",
+  "keywords": [
+    "阳历",
+    "阴历",
+    "八字",
+    "五行"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/char8.umd.cjs",
+  "module": "./lib/char8.js",
+  "exports": {
+    ".": {
+      "require": "./lib/char8.umd.cjs",
+      "import": "./lib/char8.js"
+    }
+  },
+  "scripts": {
+    "test": "node ./node/index.js",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tenado/lunarjs": "^1.0.9",
+    "dayjs": "^1.11.10"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "inquirer": "^6.5.2",
+    "vite": "^5.1.3"
+  }
+}
