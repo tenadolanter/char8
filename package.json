@@ -27,8 +27,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@tenado/lunarjs": "^1.0.9",
-    "dayjs": "^1.11.10"
+    "@tenado/lunarjs": "^1.0.9"
   },
   "devDependencies": {
     "chalk": "^4.1.2",
