@@ -1,6 +1,6 @@
 {
   "name": "@tenado/char8",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "根据阳历日期获取八字",
   "keywords": [
     "阳历",
